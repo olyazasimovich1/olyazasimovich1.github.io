@@ -1,0 +1,52 @@
+
+ .order_but img{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.order_but span{
+	display: inline-block;
+    min-width: 265px;
+    width: 86%;
+    padding-left: 10px;
+}
+#basket_order .parth{
+	font-size: 18px;
+	padding: 10px 0 0 10px;
+}
+#basket_order .parth .und{
+	text-decoration: underline;
+}
+#basket_order .goods .number_of_order{
+	background: #ee3e3e;
+	color: white;
+	padding: 0;
+}
+#payment {
+	margin-bottom: 15px;
+}
+#payment .but{
+	font-size: 14px;
+}
+#payment .manipulate{
+	min-width: 135px;
+    width: 47.5%;
+    display: inline-block;
+    
+}
+#payment .manipulate1{
+	margin-right: 10px;
+}
+.but_right {
+	text-align: left;
+}
+.but_right img{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	
+}

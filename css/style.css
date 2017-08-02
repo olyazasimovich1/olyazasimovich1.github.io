@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img {
+max-width: 100%;
+}
+@font-face {
+	font-family: 'Lato-Medium';
+	src: url('../fonts/Lato-Medium.eot'),
+	url('../fonts/Lato-Medium.ttf');
+	src: url('../fonts/Lato-Medium.woff2') format('woff2'),
+    url('../fonts/Lato-Medium.woff') format('woff'),
+    url('../fonts/Lato-Medium.svg#Lato-Medium') format('svg'),
+    url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/Lato-Regular.eot'),
+  url('../fonts/Lato-Regular.ttf');
+  src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+       url('../fonts/Lato-Regular.woff') format('woff'),
+       url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg'),
+       url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('../fonts/Lato-Bold.eot'),
+  url('../fonts/Lato-Bold.ttf');
+  src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+       url('../fonts/Lato-Bold.woff') format('woff'),
+       url('../fonts/Lato-Bold.svg#Lato-Bold') format('svg'),
+       url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	font-family: Lato-Medium, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 300;
+	text-align: center;
+	
+}
+h1{
+	font-family: Lato-Bold, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+h3{
+	font-weight: 300;
+}
+
+.but{
+	margin:0 10px;
+	min-width: 300px;
+	padding: 10px 0;
+}
+header, #new, #articles .but{
+	background: #ee3e3e;
+}
+header ul{
+	height: 40px;
+	display: table;
+	
+}
+header ul li{
+	display: table-cell;
+	vertical-align: middle;	
+}
+header ul .menu{
+	width: 170px;
+	padding-left: 10px;
+	text-align:left;
+}
+header ul .loupe, .prof, .basket{
+	width: 46px;
+	color: white;
+}
+header ul .loupe img, .prof img, .basket img{
+	width: 20px;
+
+}
+header ul .prof, header ul .basket{
+	position: relative;
+}
+header ul .okey{
+	position: absolute;
+    top: 0px;
+    right: 2px;
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: #ee3e3e;
+    font-size: 12px;
+
+}
+#main_content .logo{
+	height: 80px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+}
+#main_content .logo img{
+	margin: auto;
+}
+#main_content .big_baner img{
+	width: 100%;
+	min-height: 220px;
+
+}
+#main_content .sale_name{
+	padding:5px 0;
+}
+#main_content .small_baner{
+	padding-bottom: 10px;
+}
+ .first_baner{
+	margin-right: 6px;	
+}
+#new{
+	padding-bottom: 12px;
+}
+.name_new{
+	text-align: center;
+	padding-top: 3px;
+}
+.name_new .line{
+	border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    width: 50px;
+    margin: 8px auto;
+}
+
+#new .new_block{
+	width: 46%;
+	display: inline-block;
+	background: white;
+	margin-bottom: 10px;
+	position: relative;
+	color: #ee3e3e;
+	padding-bottom: 10px;
+	
+}
+
+#new .new_block .discount{
+	position: absolute;
+    top: 20px;
+    background: white;
+    width: 50px;
+    left: -3px;
+}
+#new .new_block .old_cost{
+	color: #c4c4c4;
+	font-size: 12px;
+	text-decoration: line-through;
+	
+}
+
+.name_new_block{
+	color: black;
+}
+#new .but{
+	color:#ee3e3e;
+	background: white;
+}
+#articles h1{
+	color: #082845;
+}
+#articles .name_new .line{
+	border-bottom: 2px solid #082845;
+}
+#articles .art_pic{
+	min-width: 74px;
+    width: 23%;
+    float: left;
+}
+#articles .article{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 15px;
+	text-align:left;
+	padding: 0 10px;
+}
+#articles .article img{
+	padding-right: 5px;
+}
+#articles .article p{
+	padding-bottom: 5px;
+}
+#articles .name_new_block{
+	text-decoration: underline;
+}
+
+#articles .but{
+	color: white;
+	margin: 10px;
+}
+#articles .forma p{
+	padding: 10px;
+
+}
+#articles .forma input{
+	margin: 0 10px;
+    min-width: 280px;
+    padding: 10px;
+ 
+    border:1px solid #082845;
+}
+
+footer{
+	background: #ee3e3e;
+	padding: 6px 0;
+}
+footer .but{
+	background: white;
+	margin: 6px 10px ;
+	font-size: 18px;
+	color: #ee3e3e;
+}
+footer .icons{
+	margin: 10px 0 ;
+}
+footer .icons li{
+	display: inline-block;
+	
+}
+footer .footer_text{
+	font-size: 10px;
+	color: white;
+	border-top: 1px solid white;
+	padding: 10px 10px 5px 10px;
+	text-align: left;
+}
+footer .footer_text, #new .new_block .new_cost, #articles .forma p, #articles .article, .name_new_block, #new .new_block .old_cost, .but{
+	font-family: Lato-Regular, arial;
+}
+.name_new_block, #new .new_block .discount, .but{
+   font-size: 16px;
+}

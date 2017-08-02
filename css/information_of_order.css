@@ -1,0 +1,20 @@
+#adrmaps{
+	text-align: left;
+	padding: 12px 10px;
+}
+#adrmaps .map iframe{
+	width: 100%;
+	height: 230px;
+}
+#basket_order .goods img{
+	margin-left: 0;
+}
+#basket_order .goods .cl{
+	width: 100%;
+}
+#adrmaps .allinf{
+	padding-bottom: 12px;
+}
+#basket_order .goods{
+	margin-bottom: 1px;
+}

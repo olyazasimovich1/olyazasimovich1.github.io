@@ -1,0 +1,13 @@
+#spm .but{
+	background: #ee3e3e;
+	color: white;
+	text-align:center;
+}
+.name_order{
+	color: black;
+	padding: 10px;
+	margin-bottom: 0;
+}
+#spm .but{
+	margin-bottom: 25px;
+}

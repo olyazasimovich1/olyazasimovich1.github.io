@@ -1,0 +1,64 @@
+#basket_order .goods{
+	margin-top: 1px;
+}
+#basket_order input{
+	opacity: 0;
+}
+#basket_order .goods img{
+	margin-left:25px;
+}
+#basket_order .goods .check{
+	top: 9px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #5b5b5b;
+    left: 4px;
+}
+#basket_order .chech_box{
+	position: relative;
+}
+#basket_order .goods .check span{
+	top: 2px;
+    position: absolute;
+    font-size: 20px;
+    left: 2px;
+    color: #5b5b5b;
+}
+#basket_order .goods .good_in_trash{
+	width: 45px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;]
+}
+#basket_order .goods .cl{
+	width: 75%;
+}
+#basket_order .goods .good_in_trash img{
+	margin-left: 0;
+    margin: auto;
+    height: 20px;
+}
+
+#payment{
+	background: #ee3e3e;
+	margin-bottom: 45px;
+	padding-top: 0;
+}
+#payment .but{
+	background: white;
+	color: black;
+}
+#payment .in_total{
+	color: white;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+#payment .goods2{
+	margin-top: 15px;
+}
